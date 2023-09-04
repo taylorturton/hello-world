@@ -19,8 +19,12 @@ while True:
     new_item = input("Enter new item: ")
     if new_item.lower() == 'stop':
         break
+
+    new_quantity = input("Enter quantity: ")
+    if new_quantity.lower() == 'stop':
+        break
     
-    new_quantity = int(input("Enter quantity: "))
+    new_quantity = int(new_quantity)
 
     # Add the new item and quantity to the grocery_list dictionary
     grocery_list[new_item] = new_quantity
