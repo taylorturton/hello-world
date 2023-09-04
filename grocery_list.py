@@ -7,7 +7,7 @@ grocery_list["Chocolate "] = 2
 grocery_list["Cereal "] = 10
 
 # Print the initial grocery list
-print("initial_grocery_list")
+print("Initial Grocery List: ")
 for item, quantity in grocery_list.items():
     print(item, quantity)
 
@@ -27,6 +27,6 @@ while True:
     
 
 # Print the updated grocery list
-print("updated_grocery_list")
+print("Updated Grocery List: ")
 for item, quantity in grocery_list.items():
     print(item, quantity)
