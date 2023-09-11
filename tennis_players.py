@@ -16,8 +16,8 @@ players_info = [
 ]
 
 # Create player objects and store them in a list
-players = [TennisPlayer(name, age, height_cm, nationality) for name, age, height_cm, nationality in players_info]
+players_list = [TennisPlayer(name, age, height_cm, nationality) for name, age, height_cm, nationality in players_info]
 
 # Print player information
-for player in players:
-    print(f"{player.name} is {player.age} years old, {player.height_cm} cm tall, and from {player.nationality}.")
+for player in players_list:
+    print(f"{player.name} || {player.age} years old || {player.height_cm} cm tall || {player.nationality}.")
